@@ -6,18 +6,16 @@ import pymongo as pymongo
 from datetime import datetime
 
 config = {
-    'URI': 'mongodb://blocoiot-db:dsbh5MII4bl4vkDwAcTSLmKpNJv79HW4a4D71ibQtBuqTLowQZtc0MtlYCPNhRjW9VBaBh7ZFan7VIKiKjq1jQ=='
-           '@blocoiot-db.documents.azure.com:10255/?ssl=true&replicaSet=globaldb',
+    'URI': 'YOUR_URI_MONGO_DB',
     'DATABASE': 'at-iot',
     'CONTAINER': 'sensor'
 }
 
 path_to_root_cert = "cert.cer"
 device_id = "sensorlocal"
-sas_token = "SharedAccessSignature sr=SensorBlocoIoT.azure-devices.net%2Fdevices%2Fsensorlocal&sig=wDL7felH69ztd3DhMxbuwXs" \
-            "nFaB9kCBqPEgRcfjsuGA%3D&se=1561719426"
-iot_hub_name = "SensorBlocoIoT"
-topic = "pedropaiva/producao/mensagem"
+sas_token = "SAS_TOKEN_GENERATE"
+iot_hub_name = "IOT_HUB_NAME"
+topic = "NAME_TOPIC"
 message = "{timestamp: %s," \
           " id_sensor: %s," \
           " info: %.2f" \
@@ -50,8 +48,8 @@ def on_message(client, userdata, msg):
 def client_cloud_mqtt(msg_txt_formatted):
     broker = "postman.cloudmqtt.com"
     port = 18853
-    usuario = 'pfylzqnn'
-    senha = 'DrH6L-HlwS0J'
+    usuario = 'YOUR_USER'
+    senha = 'YOUR_PASSWORD'
 
     cliente_mqtt = mqtt.Client('python-mqtt')
     cliente_mqtt.username_pw_set(username=usuario, password=senha)

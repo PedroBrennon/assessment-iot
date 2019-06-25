@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a140aea6-5918-48bc-897d-b673deb99e73" name="Default Changelist" comment="" />
+    <list default="true" id="a140aea6-5918-48bc-897d-b673deb99e73" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/at_iot.py" beforeDir="false" afterPath="$PROJECT_DIR$/at_iot.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/at_iot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="91" column="53" selection-start-line="91" selection-start-column="35" selection-end-line="91" selection-end-column="53" />
+            <state relative-caret-position="901">
+              <caret line="53" column="43" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="43" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -30,6 +32,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -53,21 +58,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="at_iot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="at_iot" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -177,10 +173,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15769805" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15753424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -202,42 +198,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../mqttclient-iothub-example-master/cosmos_db.py" />
     <entry file="file://$PROJECT_DIR$/../Pedro_Paiva_DR2_TP3/código-python/mqtt.py" />
-    <entry file="file://$PROJECT_DIR$/../mqttclient-iothub-example-master/sub_mqtt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mqttclient-iothub-example-master/mqtt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="33" selection-end-line="78" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../mqttclient-iothub-example-master/sub_mqtt.py" />
+    <entry file="file://$PROJECT_DIR$/../mqttclient-iothub-example-master/mqtt.py" />
+    <entry file="file://$PROJECT_DIR$/database.py" />
+    <entry file="file://$PROJECT_DIR$/notification.py" />
     <entry file="file://$PROJECT_DIR$/at_iot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="91" column="53" selection-start-line="91" selection-start-column="35" selection-end-line="91" selection-end-column="53" />
+        <state relative-caret-position="901">
+          <caret line="53" column="43" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="43" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
